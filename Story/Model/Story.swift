@@ -36,40 +36,40 @@ extension Story {
     static func getStory() -> [Story] {
         [
             Story(
-                title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'",
+                title: "You wake up to the sound of your phone buzzing. Groaning, you reach over to see who's calling at this ungodly hour. It's your best friend, Sarah. You answer, trying to suppress a yawn. Hey, Sarah. What's up?",
                 answer: [
                     Answer(
-                        title: "I'll hop in. Thanks for the help!",
+                        title: "Hi, I'm fine",
                         type: .first),
                     Answer(
-                        title: "Better ask him if he's a murderer first.",
+                        title: "You answer “I want to sleep” and hand up",
                         type: .second)
                 ]
             ),
             Story(
-                title: "He nods slowly, unfazed by the question.",
+                title: "Have you seen the news? - she asks, her voice urgent.",
                 answer: [
-                    Answer(title: "At least he's honest. I'll climb in.",
+                    Answer(title: "No, I just woke up. What's going on?",
                            type: .first),
-                    Answer(title: "Wait, I know how to change a tire.",
+                    Answer(title: "Yes, this is some kind of joke, don't mind",
                            type: .second)
                 ]
             ),
             Story(
-                title: "As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.",
+                title: "It's all over Twitter. They've discovered a hidden treasure in Spain, and the first person to find it gets to keep it all. We have to go.",
                 answer: [
                 Answer(
-                    title: "I love Elton John! Hand him the cassette tape.",
+                    title: "A treasure hunt in Spain? It sounds like a dream come true. But you also have responsibilities. You can't just drop everything and go to another country. What about work?",
                     type: .first),
-                Answer(title: "It's him or me! You take the knife and stab him.",
+                Answer(title: "No, I have a lot of work",
                        type: .second)
                 ]
             ),
             Story(
-                title: "What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?",
+                title: "Take a few days off. It's worth it. Trust me",
                 answer: [
-                    Answer(title: "The End", type: .first),
-                    Answer(title: "The End", type: .second)
+                    Answer(title: "You're torn. On the one hand, you've always wanted to go to Spain. On the other hand, this seems like a long shot. You need more information.", type: .first),
+                    Answer(title: "I can't. I'm on a business trip to Toronto.", type: .second)
                 ])
                     
         ]

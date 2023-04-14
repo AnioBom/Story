@@ -47,10 +47,13 @@ class ViewController: UIViewController {
     
     @IBAction func secondButtonPressed(_ sender: UIButton) {
         
+        performSegue(withIdentifier: "showResult", sender: nil)
+        
+        /*
         let answer = currentAnswer[1]
         answerChosen.append(answer)
         nextQuestion()
-        
+        */
     }
     
 }

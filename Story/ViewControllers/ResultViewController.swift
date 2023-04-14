@@ -11,6 +11,7 @@ class ResultViewController: UIViewController {
     
     var answer: [Answer]!
     
+    
     @IBOutlet var firstLabel: UILabel!
     @IBOutlet var resultLabel: UILabel!
     
@@ -20,11 +21,13 @@ class ResultViewController: UIViewController {
        
     }
 
-}
-
-extension ResultViewController {
-    private func updateResult() {
-       // var frequencyOfAnswer: [StoryType: Int] = [:]
+    
+    @IBAction func restartButtonPressed(_ sender: UIButton) {
+        
+        dismiss(animated: true, completion: nil)
         
     }
+    
 }
+
+

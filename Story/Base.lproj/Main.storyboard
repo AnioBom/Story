@@ -176,6 +176,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="restartButtonPressed:" destination="H9l-FF-ayF" eventType="touchUpInside" id="7Ej-Sa-Ajo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fNB-FN-Om3"/>
